@@ -68,3 +68,15 @@ for i in multiplos:
     print(i)
 
 # 6) Faca uma funcao para encontrar os numeros primos no intervalo [2, 10), mas nao utilize a clausula else do for
+print()
+list = range(2,11)
+cont = 0
+for l in list:
+    for n in range(1, l+1):
+        if l % n == 0:
+            cont += 1
+    if cont > 2:
+        print(l,'não é um número primo.')
+    else:
+        print(l,'é um número primo.')
+    cont = 0
