@@ -1,6 +1,6 @@
 #DESAFIO!!!
 #1) Implemente um algoritmo para trocar o conteudo de duas variáveis x e y.
-''' print('Digite o conteúdo de duas variaveis: ')
+print('Digite o conteúdo de duas variaveis: ')
 x = input()
 y = input()
 z = x
@@ -46,7 +46,7 @@ while (i < int(qtde_elementos)):
 
 print()
 resultado = lista_igual(lista1, lista2)
-print(resultado)'''
+print(resultado)
 
 # 2) Crie uma funcao que verifica se duas strings são palindromes perfeitas. Faca as 'limpeza'/sanitizacao necessarias.  Retorne True ou False.
 #
